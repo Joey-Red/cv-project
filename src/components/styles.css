@@ -1,0 +1,107 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  background-color: rgb(242, 120, 75);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+/* General Info Section Styling */
+.generalInfo,
+.educationInfo {
+  display: grid;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  gap: 4px;
+  background-color: rgb(147, 250, 165);
+}
+.generalInfo input,
+.generalInfo button,
+#editButton,
+#editButtonEdu,
+#editButtonWork,
+.educationInfo input,
+.educationInfo button,
+.JobComponent input,
+.workInfo button {
+  border-radius: 12px;
+  padding: 4px;
+  border: solid black 1px;
+  font-size: 16px;
+}
+
+.MyComponent {
+  display: none;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  gap: 4px;
+  background-color: rgb(147, 250, 165);
+}
+.MyComponent p {
+  border-radius: 12px;
+  padding: 14px;
+  border: solid black 1px;
+  background-color: rgb(147, 250, 165);
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Eductation Section Styling */
+.educationInfo {
+  background-color: rgb(241, 130, 141);
+}
+.SchoolComponent {
+  background-color: rgb(241, 130, 141);
+  display: none;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  gap: 4px;
+}
+.SchoolComponent p {
+  border-radius: 12px;
+  padding: 12px;
+  border: solid black 1px;
+  background-color: rgb(241, 130, 141);
+  margin: 0;
+  font-size: 16px;
+}
+button {
+  margin-bottom: 20px;
+}
+
+.workInfo {
+  background-color: rgb(242, 120, 75);
+  display: grid;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  gap: 4px;
+}
+.workInfo input {
+  border-radius: 12px;
+  padding: 4px;
+  border: solid black 1px;
+  margin: 0;
+  font-size: 16px;
+}
+.JobComponent {
+  background-color: rgb(242, 120, 75);
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  gap: 4px;
+  display: none;
+}
+.JobComponent p {
+  border-radius: 12px;
+  padding: 12px;
+  border: solid black 1px;
+  margin: 0;
+  font-size: 16px;
+}
